@@ -1,0 +1,221 @@
+@font-face{
+    font-family:"10406";
+    src:url(Fonts/10406.ttf);
+}
+
+@font-face{
+    font-family:"10351";
+    src:url(Fonts/10351.ttf);
+}
+
+@font-face{
+    font-family:"10138";
+    src:url(Fonts/10138.ttf);
+}
+
+@font-face{
+    font-family:"10200";
+    src:url(Fonts/10200.ttf);
+}
+
+@font-face{
+    font-family:"9852";
+    src:url(Fonts/9852.otf);
+}
+
+@font-face{
+    font-family:"9127";
+    src:url(Fonts/9127.ttf);
+}
+
+@font-face{
+    font-family:"10323";
+    src:url(Fonts/10323.ttf);
+}
+ 
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color:antiquewhite;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    
+    padding: 10 0;
+    
+    background:url(Image/Fon/1.jpg) no-repeat; 
+    border-bottom: 1px solid antiquewhite;
+    background-size: cover; 
+}
+
+#inside{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#logotip{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(Image/logotype/1.png)no-repeat;
+    background-size: contain;
+    margin-left: 130px;
+}
+
+#name{
+    font-family:"9852";
+    font-size: 2.4em;
+    float: left;
+    margin-left: 30px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+#name a{
+    text-decoration: none;
+    color:whitesmoke;     
+}
+
+#name a:hover{background: none}
+
+#navigation{
+    align-items: center;
+    flex-direction: row;
+    display:flex;
+    height: 50px;
+    float: right;
+    margin-right: 70px;
+}
+
+#navigation a{
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    display: block;
+    font-family: "10351";
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding: 0 20px;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+}
+#navigation a:last-child{border-left: none}
+:hover{background: grey;}
+
+#tablica{
+    margin-top: 10px;
+    float: right;   
+    margin-left: 50px;
+}
+
+#glavnii_zagolovok{
+    font-size: 2.0em;
+    font-family: "10200";
+    color: midnightblue;
+}
+
+#content{
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 79%;
+    height: auto;
+    font-family: "10138";
+    font-size: 20px;
+    color: black;
+    float: right;
+    text-align:justify;
+    padding-right: 40px;
+    background-image: url(Image/Fon/2.jpg) repeat;
+}
+
+#download:nth-child(n){background: none}
+
+#image{
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+#kategorii{
+    width: 17.5%;
+    height: auto;
+    float: left;
+    font-size: 28px;
+    font-family: "10406";
+    text-align: left;
+    vertical-align: top;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-right-width:medium;
+    margin-left: -30px; 
+    background-image: url(Image/Fon/2.jpg);
+}
+
+ul li:nth-child(n)
+{   margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 10px;
+    align-items: center;
+    flex-direction: row;
+    display:flex;
+}
+
+ul li a:nth-child(n){background: none}
+
+ul li:hover{background: grey}
+
+ul li{list-style: none;}
+
+#kategorii a{
+    text-decoration: none;
+    color:snow;
+}
+
+footer{
+    margin: 0;
+    padding: 0 auto;
+    
+    height: 180px;
+    padding: 0 10px;
+    
+    clear: both;
+    background: url(Image/Fon/1.jpg) no-repeat;
+    background-size: cover;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#kontakti{
+    width: 40%;
+    height: 70px;
+    float: left;
+    font-family: "9852";
+    color:cornsilk;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#right_menu a:nth-child(n){background: none}
+
+#right_menu a{
+    text-decoration: none;
+    color:azure;
+}
+
+#right_menu{
+    font-family: "9852";
+    font-size: 25px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+hr#polosa{margin-top: 112px;}
+
+#copirate{
+    font-family:cursive;
+    font-size: 1em;
+    text-align: center;
+    color: cornsilk;
+}
