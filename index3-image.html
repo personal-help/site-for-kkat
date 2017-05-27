@@ -27,44 +27,12 @@
                     <li><a href="index3-table.html">Таблицы</a></li>
                      
             </ul>
-            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br>
            </div>
            
            <div id=content>
            <p><center><h1 id=glavnii_zagolovok>Вставка изображения</h1></center></p> 
            
-           <p>Здесь можно не только легко вставить изображение, но и красиво его оформить. Например смещение, рамки и их толщина и цвет, прозрачность и многое другое.</p>
-               
-           <p>Не стоит забывать о том, что каждый подобный элемент сайта лучше всего оформлять отдельным селекторов по id, для того чтобы все свойства применялись для обьекта.</p>       
-               
-           <p>Сразу разбераем касающиеся свойства данного селектора и их значения.</p> 
-            <ol>
-               <li><b>background-image</b> - установить в качестве фона следующий рисунок.</li>
-                    <ol>
-                        <li>url(ссылка на изображение)</li>
-                    </ol>
-               <li><b>width</b> - ширина, указывается в процентах (%) или пикселях (px).</li>
-               <li><b>height</b> - высота, указывается в процентах (%) или пикселях (px).</li>
-               <li><b>float</b> - расположение данного блока.</li>
-                     <ol>
-                         <li>left</li>
-                         <li>right</li>
-                         <li>center</li>
-                         <li>inherit</li>
-                     </ol>
-               <li><b>background-size</b> - параметр заполнения.</li>
-                     <ol>
-                        <li>auto</li>
-                        <li>contain - значение, при котором изображение не выйдет за грани.</li>
-                        <li>cover - своеобразная "шапка". Указывается в верхней части сайта.</li>
-                     </ol>
-               <li><b>margin-top; -bottom; -left; -right</b> - внешние отступы, могут задаваться сразу для всех сторон, а могут отдельно для каждой стороны; указывается в процентах (%) или пикселях (px).</li>
-               <li><b>padding-top; -bottom; -left; -right</b> - отступы внутри самого блока, указываются точно также как и внешние.</li>  
-               <li><b>border</b> - грани, данное свойство может задаваться сразу на все стороны, то есть получится рамка, или же по отдельности каждая грань при добовлении свойств: <b>-top; -bottom; -left; -right.</b> А после указания толщины границ в пикселях, нужно указать цвет грани, воспользовавшись свойством <b>solid цвет.</b> Примерно вот так: <img src="Image/scrinshots/22.bmp"> - задана рамка тощиной в 2 пикселя зеленого цвета.</li>
-            </ol>
-               
-            <li>Так же свойство <b>background</b> служит в качестве фона для отдельных блоков или же для всего сайта или всей страницы (если данное свойство размещено в селекторе body). В качестве фона может быть цвет или же какое-либо изображение подключенное при помощи <b>url (ссылка на изображение).</b></li>
-            
            </div>
            
     <footer>
@@ -76,18 +44,37 @@
         
            <div id="right_menu">
             <a href="index.html">Главная</a><br><br>
-                <a href="index.o-nas.html">О нас</a>
+                <a href="">О нас</a>
            </div>
            <hr id=polosa>
-           <center>
-        <div id="qoo-counter">
-          <a href="http://qooi.ru/" title="Сервис коротких ссылок">
-            <img src="http://qooi.ru/counter/standard/009.png" alt="Укоротить ссылку">
-                <div id="qoo-counter-visits"></div>
-                 <div id="qoo-counter-views"></div>
-          </a>
-        </div>
-       <script type="text/javascript" src="http://qoo.by/counter.js"></script></center>
+           <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44790241 = new Ya.Metrika({
+                    id:44790241,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44790241" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
     </footer>
 </body>
 </html>
